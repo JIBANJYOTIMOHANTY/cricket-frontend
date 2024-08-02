@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const REST_API_URL = "https://cricket-backend-1tqd.onrender.com"
+const REST_API_URL = "https://cricket-backend-1tqd.onrender.com/match"
 
 export const getAllMatches = () => axios.get(REST_API_URL)
 
